@@ -9,18 +9,23 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 
 ## Desenvolvimento
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório:
-* crie um ambiente virtual
 ```shell
-python3.8 -m venv delivery/.venv
-cd "delivery"
+cd "<seu diretório>"
 git clone https://github.com/fmchagas/olaf_delivery.git
-cd "olaf_delivery"
 ```
+
+* crie um ambiente virtual
+```
+cd "olaf_delivery"
+python3.8 -m venv .venv
+```
+
 * Ative o ambiente virtual e instale as dependencias
 ```shell
 source .venv/bin/activate
 make install
 ```
+
 * Rode a aplicação
 ```shell
 export FLASK_APP=olaf_delivery/app.py
