@@ -131,3 +131,5 @@ dmypy.json
 .vscode/
 
 .coverage
+
+/olaf_delivery/olaf_delivery.db
